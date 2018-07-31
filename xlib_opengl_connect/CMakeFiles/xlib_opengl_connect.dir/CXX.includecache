@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vyeevani/Desktop/xlib_opengl_connect/main.cpp
+X11/X.h
+-
+X11/Xlib.h
+-
+iostream
+-
+GL/gl.h
+-
+GL/glx.h
+-
+GL/glu.h
+-
+thread
+-
+chrono
+-
+

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vyeevani/Desktop/xlib_test/main.cpp
+X11/Xlib.h
+-
+X11/Xutil.h
+-
+X11/Xresource.h
+-
+iostream
+-
+

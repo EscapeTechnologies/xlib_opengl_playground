@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.6)
+project(xlib_opengl_connect)
+
+set(CMAKE_CXX_STANDARD 11)
+find_package(X11 REQUIRED)
+link_packages(${X11_LIBRARIES})
+include_directories(${X11_INCLUDE_DIR})
+add_executable(xlib_opengl_connect main.cpp)
